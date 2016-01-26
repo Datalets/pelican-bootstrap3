@@ -1,18 +1,18 @@
-#: ../templates/article.html:98 ../templates/ogdch/footer.html:18
-msgid "Contribute"
-msgstr ""
-
 #: ../templates/article.html:99
-msgid "Edit"
-msgstr ""
-
-#: ../templates/article.html:102
 msgid ""
 "This is an early draft topic that needs more input. Please consider "
 "adding your expertise here."
 msgstr ""
 
-#: ../templates/article_list.html:39
+#: ../templates/article.html:102 ../templates/ogdch/footer.html:18
+msgid "Contribute"
+msgstr ""
+
+#: ../templates/article.html:103
+msgid "Edit"
+msgstr ""
+
+#: ../templates/article_list.html:41
 msgid "Next"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid ""
 "The Swiss Open Government Data (OGD) Handbook is being developed based on"
 " documentation produced by the OGD Switzerland project, and additional "
-"established references. As the knowledge base for opendata.swiss, it "
+"well-established references. A knowledge base for opendata.swiss, it "
 "provides central access to learning resources: supporting individuals "
 "with responsibilities for data publishing at government offices "
 "nationwide, and open data publishers in general. The Swiss Federal "
@@ -107,3 +107,4 @@ msgstr ""
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
 msgstr ""
+
