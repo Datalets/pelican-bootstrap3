@@ -86,7 +86,7 @@ msgid "Send a request"
 msgstr "Fragen stellen"
 
 #: ../templates/ogdch/article_info.html:36
-msgid "OGD Switzerland Project"
+msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
 #: ../templates/ogdch/categories.html:3 ../templates/ogdch/categories.html:25
@@ -127,8 +127,8 @@ msgstr ""
 
 #: ../templates/ogdch/footer.html:48
 msgid ""
-"The Swiss Open Government Data (OGD) Handbook is being developed based on"
-" documentation produced by the OGD Switzerland project, and additional "
+"The OGD Handbook is being developed based on"
+" documentation produced by Open Government Data Switzerland, and additional "
 "well-established references. A knowledge base for opendata.swiss, it "
 "provides central access to learning resources: supporting individuals "
 "with responsibilities for data publishing at government offices "
