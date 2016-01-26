@@ -78,7 +78,7 @@ span.logo-color { color: #009688; }
 .page-library .article-list .category-banner {
   height: 128px;
 }
-.page-library .article-list {
+.page-library .article-list h2 {
   margin-top: 1em;
 }
 .category-banner {
