@@ -94,7 +94,15 @@ msgstr ""
 msgid "Legal notice"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:35
+#: ../templates/ogdch/footer.html:36
+msgid "References"
+msgstr ""
+
+#: ../templates/ogdch/footer.html:41
+msgid "About"
+msgstr ""
+
+#: ../templates/ogdch/footer.html:48
 msgid ""
 "The Swiss Open Government Data (OGD) Handbook is being developed based on"
 " documentation produced by the OGD Switzerland project, and additional "
