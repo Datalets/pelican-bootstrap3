@@ -75,6 +75,12 @@ span.logo-color { color: #009688; }
   height: 256px;
   margin: 0px;
 }
+.page-library .article-list .category-banner {
+  height: 128px;
+}
+.page-library .article-list {
+  margin-top: 1em;
+}
 .category-banner {
   float: left;
   margin-right: 20px;
