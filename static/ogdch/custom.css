@@ -165,6 +165,9 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
   #main-navigation .navbar-brand img {
       width: 100%;
   }
+  .front-header .headline {
+    margin: 0px; height: 0px;
+  }
 }
 
 /* Fix beta link */
