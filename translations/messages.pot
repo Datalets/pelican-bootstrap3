@@ -4,7 +4,8 @@ msgid ""
 "adding your expertise here."
 msgstr ""
 
-#: ../templates/article.html:102 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:102 ../templates/front.html:59
+#: ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr ""
 
@@ -29,7 +30,7 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
-#: ../templates/front.html:67
+#: ../templates/front.html:70
 msgid "Search topics..."
 msgstr ""
 

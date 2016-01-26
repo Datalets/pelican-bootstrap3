@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-26 11:00+0100\n"
+"POT-Creation-Date: 2016-01-26 15:38+0100\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -26,7 +26,8 @@ msgstr ""
 "Dies ist eine frühe Entwürfe Thema, das mehr Input braucht. Bitte erwägen"
 " Sie Ihr Know-how hier."
 
-#: ../templates/article.html:102 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:102 ../templates/front.html:59
+#: ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr "Beitragen"
 
@@ -51,7 +52,7 @@ msgstr "Bibliothek"
 msgid "Glossary"
 msgstr "Glossar"
 
-#: ../templates/front.html:67
+#: ../templates/front.html:70
 msgid "Search topics..."
 msgstr "Suche nach Themen"
 
