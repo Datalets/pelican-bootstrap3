@@ -44,7 +44,7 @@ msgid "Start reading"
 msgstr "Weiter lesen"
 
 #: ../templates/front.html:53 ../templates/library.html:11
-#: ../templates/ogdch/categories.html:11
+#: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Bibliothek"
 
@@ -89,22 +89,22 @@ msgstr "Fragen stellen"
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/categories.html:3 ../templates/ogdch/categories.html:25
+#: ../templates/ogdch/render_categories.html:3 ../templates/ogdch/render_categories.html:25
 #: ../templates/ogdch/navbar.html:32
 msgid "Identify"
 msgstr "Identifizieren"
 
-#: ../templates/ogdch/categories.html:5 ../templates/ogdch/categories.html:19
+#: ../templates/ogdch/render_categories.html:5 ../templates/ogdch/render_categories.html:19
 #: ../templates/ogdch/navbar.html:35
 msgid "Establish"
 msgstr "Etablieren"
 
-#: ../templates/ogdch/categories.html:7 ../templates/ogdch/categories.html:21
+#: ../templates/ogdch/render_categories.html:7 ../templates/ogdch/render_categories.html:21
 #: ../templates/ogdch/navbar.html:38
 msgid "Publish"
 msgstr "Publizieren"
 
-#: ../templates/ogdch/categories.html:9 ../templates/ogdch/categories.html:23
+#: ../templates/ogdch/render_categories.html:9 ../templates/ogdch/render_categories.html:23
 #: ../templates/ogdch/navbar.html:41
 msgid "Support"
 msgstr "Supporten"

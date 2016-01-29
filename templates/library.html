@@ -14,7 +14,7 @@
   {% endfor %}
 {% endmacro %}
 
-{% import 'ogdch/categories.html' as categories with context %}
+{% import 'ogdch/render_categories.html' as render_categories %}
 
 {% block content %}
     <section id="content" class="body">
@@ -32,7 +32,7 @@
       </div>
       <div class="col-md-11">
         <h2>
-          {{ categories.translations_for(category) }}
+          {{ render_categories.translations_for(category) }}
         </h2>
         {% for tag, articles in tags %}
           {% if tag|trim|lower == category|lower %}

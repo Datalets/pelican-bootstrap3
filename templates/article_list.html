@@ -52,8 +52,8 @@ Sustain the use of your OGD
 
       {% if category %}
       <div class="category-next">
-        {% import 'ogdch/categories.html' as categories with context -%}
-        {% set next_category = categories.next_category(category) -%}
+        {% import 'ogdch/render_categories.html' as render_categories with context -%}
+        {% set next_category = render_categories.next_category(category) -%}
         <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
           <span class="category-banner category-{{ next_category|lower }}"></span>
           <h5>
