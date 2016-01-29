@@ -13,17 +13,17 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: ../templates/article_list.html:41
+#: ../templates/article_list.html:60
 msgid "Next"
+msgstr ""
+
+#: ../templates/document.html:11 ../templates/front.html:53
+#: ../templates/ogdch/render_categories.html:11
+msgid "Library"
 msgstr ""
 
 #: ../templates/front.html:49
 msgid "Start reading"
-msgstr ""
-
-#: ../templates/front.html:53 ../templates/library.html:11
-#: ../templates/ogdch/render_categories.html:11
-msgid "Library"
 msgstr ""
 
 #: ../templates/front.html:56
@@ -66,54 +66,74 @@ msgstr ""
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:3 ../templates/ogdch/render_categories.html:25
-#: ../templates/ogdch/navbar.html:32
-msgid "Identify"
-msgstr ""
-
-#: ../templates/ogdch/render_categories.html:5 ../templates/ogdch/render_categories.html:19
-#: ../templates/ogdch/navbar.html:35
-msgid "Establish"
-msgstr ""
-
-#: ../templates/ogdch/render_categories.html:7 ../templates/ogdch/render_categories.html:21
-#: ../templates/ogdch/navbar.html:38
-msgid "Publish"
-msgstr ""
-
-#: ../templates/ogdch/render_categories.html:9 ../templates/ogdch/render_categories.html:23
-#: ../templates/ogdch/navbar.html:41
-msgid "Support"
-msgstr ""
-
-#: ../templates/ogdch/footer.html:23
-msgid "Contact us"
-msgstr ""
-
-#: ../templates/ogdch/footer.html:28
-msgid "Legal notice"
-msgstr ""
-
-#: ../templates/ogdch/footer.html:36
+#: ../templates/ogdch/footer.html:19
 msgid "References"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:41
+#: ../templates/ogdch/footer.html:24
 msgid "About"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:48
+#: ../templates/ogdch/footer.html:25
+msgid "Contact us"
+msgstr ""
+
+#: ../templates/ogdch/footer.html:30
+msgid "Legal notice"
+msgstr ""
+
+#: ../templates/ogdch/footer.html:37
 msgid ""
-"The OGD Handbook is being developed based on"
-" documentation produced by Open Government Data Switzerland, and additional "
-"well-established references. A knowledge base for opendata.swiss, it "
-"provides central access to learning resources: supporting individuals "
-"with responsibilities for data publishing at government offices "
-"nationwide, and open data publishers in general. The Swiss Federal "
-"Archives operates the OGD Handbook."
+"The OGD Handbook is being developed based on documentation produced by "
+"Open Government Data Switzerland, and additional well-established "
+"references. A knowledge base for opendata.swiss, it provides central "
+"access to learning resources: supporting individuals with "
+"responsibilities for data publishing at government offices nationwide, "
+"and open data publishers in general. The Swiss Federal Archives operates "
+"the OGD Handbook."
 msgstr ""
 
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
+msgstr ""
+
+#: ../templates/ogdch/navbar.html:32
+#: ../templates/ogdch/render_categories.html:3
+#: ../templates/ogdch/render_categories.html:25
+msgid "Identify"
+msgstr ""
+
+#: ../templates/ogdch/navbar.html:35
+#: ../templates/ogdch/render_categories.html:5
+#: ../templates/ogdch/render_categories.html:19
+msgid "Establish"
+msgstr ""
+
+#: ../templates/ogdch/navbar.html:38
+#: ../templates/ogdch/render_categories.html:7
+#: ../templates/ogdch/render_categories.html:21
+msgid "Publish"
+msgstr ""
+
+#: ../templates/ogdch/navbar.html:41
+#: ../templates/ogdch/render_categories.html:9
+#: ../templates/ogdch/render_categories.html:23
+msgid "Support"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:33
+msgid "data for opening"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:35
+msgid "legal foundations"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:37
+msgid "as open data"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:39
+msgid "and promote usage"
 msgstr ""
 

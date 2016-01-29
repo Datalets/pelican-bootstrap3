@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-26 15:40+0100\n"
+"POT-Creation-Date: 2016-01-29 19:50+0100\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -35,18 +35,18 @@ msgstr "Beitragen"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: ../templates/article_list.html:41
+#: ../templates/article_list.html:60
 msgid "Next"
 msgstr "Nächstes"
+
+#: ../templates/document.html:11 ../templates/front.html:53
+#: ../templates/ogdch/render_categories.html:11
+msgid "Library"
+msgstr "Bibliothek"
 
 #: ../templates/front.html:49
 msgid "Start reading"
 msgstr "Weiter lesen"
-
-#: ../templates/front.html:53 ../templates/library.html:11
-#: ../templates/ogdch/render_categories.html:11
-msgid "Library"
-msgstr "Bibliothek"
 
 #: ../templates/front.html:56
 msgid "Glossary"
@@ -89,51 +89,31 @@ msgstr "Fragen stellen"
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/render_categories.html:3 ../templates/ogdch/render_categories.html:25
-#: ../templates/ogdch/navbar.html:32
-msgid "Identify"
-msgstr "Identifizieren"
-
-#: ../templates/ogdch/render_categories.html:5 ../templates/ogdch/render_categories.html:19
-#: ../templates/ogdch/navbar.html:35
-msgid "Establish"
-msgstr "Etablieren"
-
-#: ../templates/ogdch/render_categories.html:7 ../templates/ogdch/render_categories.html:21
-#: ../templates/ogdch/navbar.html:38
-msgid "Publish"
-msgstr "Publizieren"
-
-#: ../templates/ogdch/render_categories.html:9 ../templates/ogdch/render_categories.html:23
-#: ../templates/ogdch/navbar.html:41
-msgid "Support"
-msgstr "Supporten"
-
-#: ../templates/ogdch/footer.html:23
-msgid "Contact us"
-msgstr "Kontakte"
-
-#: ../templates/ogdch/footer.html:28
-msgid "Legal notice"
-msgstr "Rechtlicher Hinweis"
-
-#: ../templates/ogdch/footer.html:36
+#: ../templates/ogdch/footer.html:19
 msgid "References"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:41
+#: ../templates/ogdch/footer.html:24
 msgid "About"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:48
+#: ../templates/ogdch/footer.html:25
+msgid "Contact us"
+msgstr "Kontakte"
+
+#: ../templates/ogdch/footer.html:30
+msgid "Legal notice"
+msgstr "Rechtlicher Hinweis"
+
+#: ../templates/ogdch/footer.html:37
 msgid ""
-"The OGD Handbook is being developed based on"
-" documentation produced by Open Government Data Switzerland, and additional "
-"well-established references. A knowledge base for opendata.swiss, it "
-"provides central access to learning resources: supporting individuals "
-"with responsibilities for data publishing at government offices "
-"nationwide, and open data publishers in general. The Swiss Federal "
-"Archives operates the OGD Handbook."
+"The OGD Handbook is being developed based on documentation produced by "
+"Open Government Data Switzerland, and additional well-established "
+"references. A knowledge base for opendata.swiss, it provides central "
+"access to learning resources: supporting individuals with "
+"responsibilities for data publishing at government offices nationwide, "
+"and open data publishers in general. The Swiss Federal Archives operates "
+"the OGD Handbook."
 msgstr ""
 "Die Swiss Open Government Data (OGD) Handbuch wird auf der Grundlage der "
 "Unterlagen und Berichte während des OGD Schweiz Projekt produziert. Wir "
@@ -147,4 +127,44 @@ msgid "This is a newly released website: click here to report issues"
 msgstr ""
 "Sie sind auf einem Beta-Website, bitte mit Verbesserungsvorschläge hier "
 "melden."
+
+#: ../templates/ogdch/navbar.html:32
+#: ../templates/ogdch/render_categories.html:3
+#: ../templates/ogdch/render_categories.html:25
+msgid "Identify"
+msgstr "Identifizieren"
+
+#: ../templates/ogdch/navbar.html:35
+#: ../templates/ogdch/render_categories.html:5
+#: ../templates/ogdch/render_categories.html:19
+msgid "Establish"
+msgstr "Etablieren"
+
+#: ../templates/ogdch/navbar.html:38
+#: ../templates/ogdch/render_categories.html:7
+#: ../templates/ogdch/render_categories.html:21
+msgid "Publish"
+msgstr "Publizieren"
+
+#: ../templates/ogdch/navbar.html:41
+#: ../templates/ogdch/render_categories.html:9
+#: ../templates/ogdch/render_categories.html:23
+msgid "Support"
+msgstr "Supporten"
+
+#: ../templates/ogdch/render_categories.html:33
+msgid "data for opening"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:35
+msgid "legal foundations"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:37
+msgid "as open data"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:39
+msgid "and promote usage"
+msgstr ""
 
