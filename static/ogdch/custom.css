@@ -162,6 +162,29 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
   font-size: 85%;
   background-color: white;
 }
+#front-table thead a:hover i {
+  background: url(/theme/ogdch/arrow-on.png) no-repeat top left;
+}
+#front-table thead i {
+  background: url(/theme/ogdch/arrow-off.png) no-repeat top left;
+  display: block;
+  color: white;
+  font-size: 28px;
+  padding: 7px;
+  padding-left: 0.7em;
+  margin-bottom: 0.4em;
+  margin-left: -0.5em;
+}
+#front-table thead b {
+  font-size: 165%;
+  font-weight: bolder;
+}
+#front-table thead p {
+  font-weight: bold;
+  font-size: 83%;
+  margin-top: -0.5em;
+  margin-bottom: 0em;
+}
 
 /* Fix mobile handbook logo */
 @media (max-width: 992px) {

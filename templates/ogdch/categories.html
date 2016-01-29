@@ -27,3 +27,27 @@
 		{{ category }}
 	{% endif %}
 {% endmacro -%}
+
+{% macro subheading_for(category) -%}
+	{% if category|trim|lower == "identify" %}
+		{% trans %}data for opening{% endtrans %}
+	{% elif category|trim|lower == "establish" %}
+		{% trans %}legal foundations{% endtrans %}
+	{% elif category|trim|lower == "publish" %}
+		{% trans %}as open data{% endtrans %}
+	{% elif category|trim|lower == "support" %}
+		{% trans %}and promote usage{% endtrans %}
+	{% endif %}
+{% endmacro -%}
+
+{% macro icon_for(category) -%}
+	{% if category|trim|lower == "identify" %}
+		<i class="fa fa-dot-circle-o"></i>
+	{% elif category|trim|lower == "establish" %}
+		<i class="fa fa-institution"></i>
+	{% elif category|trim|lower == "publish" %}
+		<i class="fa fa-share-alt"></i>
+	{% elif category|trim|lower == "support" %}
+		<i class="fa fa-comments"></i>
+	{% endif %}
+{% endmacro -%}
