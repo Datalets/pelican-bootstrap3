@@ -107,10 +107,8 @@ span.logo-color { color: #009688; }
 .category-next h5 span {  color: black; }
 
 /* Article information texts */
-
-article .alert em {
-  font-size: 87%;
-}
+.please-contribute.alert { text-align: right; }
+.please-contribute.alert em { font-size: 87%; opacity: 0.7; }
 
 /* Styles for library articles */
 .library-info {
