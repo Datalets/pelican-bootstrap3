@@ -59,6 +59,11 @@ span.logo-color { color: #009688; }
   color: white;
 }
 
+/* Hide first level of TOC */
+#toc > ul { margin: 0px }
+#toc > ul > li { list-style: none }
+#toc > ul > li > a { display: none }
+
 /* Wizard microapp */
 #wizard {
   border: 1px solid #aaa;

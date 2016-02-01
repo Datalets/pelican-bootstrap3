@@ -104,6 +104,9 @@
               </div>
               {% endif %}
             {% endif %}
+            {% if article.toc %}
+              {{article.toc}}
+            {% endif %}
             <div class="entry-content">
                 {{ article.content }}
             </div>
