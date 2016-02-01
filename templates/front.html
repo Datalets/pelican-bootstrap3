@@ -81,61 +81,44 @@
 {% import 'ogdch/render_categories.html' as render_categories with context %}
 
 {% macro list_articles(articles) %}
-  <td>
+  <ul class="list_articles">
     {% for article in articles %}
-    <p><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+      <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
     {% endfor %}
-  </td>
+  </ul>
 {% endmacro %}
 
 {% block content %}
-    <section id="content" class="body">
-        <div class="entry-content">
-
-          <div id="front-wrapper">
-            <table id="front-table">
-            <thead><tr>
-              {% for category in ["identify", "establish", "publish", "support"] %}
-              <td width="25%">
-                <a href="{{ SITEURL }}/category/{{ category }}">
-                  {{ render_categories.icon_for(category) }}
-                  <b>{{ render_categories.translations_for(category) }}</b>
-                </a>
-                <p>
-                  {{ render_categories.subheading_for(category) }}
-                </p>
-              </td>
-              {% endfor %}
-            </tr></thead>
-            <tr>
-              {% for category, articles in categories %}
-              {% if category|trim|lower == "identify" %}
-                {{ list_articles(articles) }}
-              {% endif %}
-              {% endfor %}
-              {% for category, articles in categories %}
-            	{% if category|trim|lower == "establish" %}
-                {{ list_articles(articles) }}
-              {% endif %}
-              {% endfor %}
-              {% for category, articles in categories %}
-            	{% if category|trim|lower == "publish" %}
-                {{ list_articles(articles) }}
-              {% endif %}
-              {% endfor %}
-              {% for category, articles in categories %}
-            	{% if category|trim|lower == "support" %}
-                {{ list_articles(articles) }}
-              {% endif %}
-              {% endfor %}
-            </tr></table>
-          </div>
-
-          {{ page.content }}
-
-          {% if page.comments == 'enabled' %}
-              {% include 'includes/comments.html' %}
-          {% endif %}
+  <div class="row topicmap">
+    {% for category_name in ["identify", "establish", "publish", "support"] %}
+    <div class="col-md-3">
+      <a href="{{ SITEURL }}/category/{{ category_name }}">
+        <div class="category-icon">
+          {{ render_categories.icon_for(category_name) }}
         </div>
-    </section>
+        <div class="category-title">
+          {{ render_categories.translations_for(category_name) }}
+        </div>
+      </a>
+      <p class="category-subheading">
+        {{ render_categories.subheading_for(category_name) }}
+      </p>
+      {% for category, articles in categories %}
+        {% if category|trim|lower == category_name %}
+          {{ list_articles(articles) }}
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <section id="content" class="body">
+      <div class="entry-content">
+        {{ page.content }}
+
+        {% if page.comments == 'enabled' %}
+            {% include 'includes/comments.html' %}
+        {% endif %}
+      </div>
+  </section>
 {% endblock %}

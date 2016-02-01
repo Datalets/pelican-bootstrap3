@@ -132,6 +132,7 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
 
 /* Ensure links are readable on splash page */
 .front-header .lead a { color: white; }
+.front-header .lead a:hover { text-decoration: underline; }
 
 /* Clear backgrond image on front page */
 .front-header .container {
@@ -139,51 +140,61 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#front-wrapper {
-  width: 100%;
-  overflow-x: auto;
+
+/* Topic map on front page */
+.topicmap .col-md-3 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
-#front-wrapper img {
-  width: 98%;
-  min-width: 40em;
+.topicmap .category-icon:before,
+.topicmap .category-icon:after {
+  content:'';
+  display: inline-block;
+  width:40px;
+  height:40px;
+  background: url(/theme/ogdch/arrow-white.png) no-repeat top left;
 }
-#front-wrapper center {
-  margin-top: 2em;
+.topicmap .category-icon:after {
+  background-position: top right;
+  float: right;
 }
-#front-table {
-  width: 97%;
-  min-width: 39em;
-  margin-left: 3%;
+.topicmap a:hover .category-icon {
+  background-color: #009688;
 }
-#front-table td {
-  border: none;
-}
-#front-table tr {
-  font-size: 85%;
-  background-color: white;
-}
-#front-table thead a:hover i {
-  background: url(/theme/ogdch/arrow-on.png) no-repeat top left;
-}
-#front-table thead i {
-  background: url(/theme/ogdch/arrow-off.png) no-repeat top left;
+.topicmap .category-icon {
+  background-color: #9bcdc3;
   display: block;
   color: white;
   font-size: 28px;
-  padding: 7px;
-  padding-left: 0.7em;
+  height: 40px;
+  width: 100%;
   margin-bottom: 0.4em;
   margin-left: -0.5em;
 }
-#front-table thead b {
+.topicmap .category-icon i {
+  position: relative;
+  top: -10px;
+  left: -20px;
+}
+.topicmap .category-title {
   font-size: 165%;
   font-weight: bolder;
+  margin-left: 10px;
 }
-#front-table thead p {
+.topicmap .category-subheading {
   font-weight: bold;
   font-size: 83%;
   margin-top: -0.5em;
-  margin-bottom: 0em;
+  margin-bottom: 0.5em;
+  margin-left: 10px;
+}
+.topicmap ul {
+  list-style: none;
+  padding: 10px;
+}
+.topicmap li {
+  line-height: 1.1em;
+  margin-bottom: 1.0em;
 }
 
 /* Fix mobile handbook logo */
