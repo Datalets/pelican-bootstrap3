@@ -13,6 +13,7 @@
     {% if article.summary %}
         <meta name="description" content="{{ article.summary|striptags|escape }}" />
     {% endif %}
+    <script async defer src="https://hypothes.is/embed.js"></script>
 {% endblock %}
 {% block opengraph %}
     {% if USE_OPEN_GRAPH %}
@@ -92,7 +93,11 @@
               <div class="entry-summary">
                   {{ article.summary }}
               </div>
-              {% if article.draft %}
+            {% endif %}
+            {% if article.toc %}
+              {{article.toc}}
+            {% endif %}
+            {% if article.draft %}
               <!-- Page in progress warning -->
               <div class="please-contribute alert alert-default" role="alert">
                 <em>
@@ -100,12 +105,8 @@
                 </em>
                 &nbsp;
                 <a class="btn btn-primary btn-sm" href="/en/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
-                <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
+                <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
               </div>
-              {% endif %}
-            {% endif %}
-            {% if article.toc %}
-              {{article.toc}}
             {% endif %}
             <div class="entry-content">
                 {{ article.content }}

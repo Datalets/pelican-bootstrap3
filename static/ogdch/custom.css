@@ -11,6 +11,7 @@ span.logo-color { color: #009688; }
 }
 .alert-floating .alert { margin: 0px; }
 .alert-floating .alert a { color: #444; }
+.alert-floating .alert-dismissible .close { position: initial; }
 
 /* Custom article_list formatting */
 .article-list article h2 {
@@ -60,6 +61,7 @@ span.logo-color { color: #009688; }
 }
 
 /* Hide first level of TOC */
+#toc { clear: both; margin-bottom: 1em; }
 #toc > ul { margin: 0px }
 #toc > ul > li { list-style: none }
 #toc > ul > li > a { display: none }
@@ -177,6 +179,12 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
 .topicmap .category-icon i {
   position: relative;
   top: -10px;
+  left: -20px;
+}
+.topicmap .category-icon img {
+  height: 24px;
+  position: relative;
+  top: -13px;
   left: -20px;
 }
 .topicmap .category-title {

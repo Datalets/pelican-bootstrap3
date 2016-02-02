@@ -1,16 +1,18 @@
 {% extends "page.html" %}
 
-{% macro list_articles(articles) %}
+{% macro list_documents(articles) %}
   {% for article in articles %}
-  <a href="{{ SITEURL }}/{{ article.url }}">
-    <article>
-      <div class="wrapper">
-        <i class="fa fa-file-text-o"></i>
-        &nbsp;
-        {{ article.title }}
-      </div>
-    </article>
-  </a>
+    {% if not article.hidden %}
+    <a href="{{ SITEURL }}/{{ article.url }}">
+      <article>
+        <div class="wrapper">
+          <i class="fa fa-file-text-o"></i>
+          &nbsp;
+          {{ article.title }}
+        </div>
+      </article>
+    </a>
+    {% endif %}
   {% endfor %}
 {% endmacro %}
 
@@ -36,7 +38,7 @@
         </h2>
         {% for tag, articles in tags %}
           {% if tag|trim|lower == category|lower %}
-            {{ list_articles(articles) }}
+            {{ list_documents(articles) }}
           {% endif %}
         {% endfor %}
       </div>
