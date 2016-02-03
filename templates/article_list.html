@@ -1,22 +1,6 @@
 {% extends "base.html" %}
 
-{% block breadcrumbs %}
-Identify
-
-Locate OGD within your organization
-
-Establish
-
-Determine the legal basis for a publication of your data as OGD
-
-Publish
-
-Get your OGD some visibility
-
-Support
-
-Sustain the use of your OGD
-{% endblock %}
+{% import 'ogdch/render_categories.html' as render_categories with context -%}
 
 {% block content %}
     {% if articles %}
@@ -51,18 +35,23 @@ Sustain the use of your OGD
       </div>
 
       {% if category %}
-      <div class="category-next">
-        {% import 'ogdch/render_categories.html' as render_categories with context -%}
+      <br clear="all">
+      <div class="row topicmap" style="margin-top:1em">
         {% set next_category = render_categories.next_category(category) -%}
-        <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
-          <span class="category-banner category-{{ next_category|lower }}"></span>
-          <h5>
-            <span>{% trans %}Next{% endtrans %}:</span>
-            {{ next_category }}
-          </h5>
-        </a>
+        <div class="col-md-9"></div>
+        <div class="col-md-3">
+          <a href="{{ SITEURL }}/category/{{ next_category }}">
+            <div class="category-icon">
+              {{ render_categories.icon_for(next_category) }}
+            </div>
+            <div class="category-title">
+              {{ render_categories.translations_for(next_category) }}
+            </div>
+          </a>
+        </div>
       </div>
       {% endif %}
+
     {% endif %}
 
     {% include 'includes/pagination.html' %}
