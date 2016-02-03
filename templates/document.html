@@ -27,13 +27,16 @@
 {% block content %}
     <section id="content" class="body">
         <article>
-            <div class="entry-content">
-              {{ article.content }}
-            </div>
             <div class="panel library-info">
                 <div class="panel-body">
                   {% include "ogdch/article_info.html" %}
                 </div>
+            </div>
+            {% if article.toc %}
+              {{article.toc}}
+            {% endif %}
+            <div class="entry-content">
+              {{ article.content }}
             </div>
             <!-- /.entry-content -->
             {% include 'includes/related-posts.html' %}

@@ -121,6 +121,11 @@ span.logo-color { color: #009688; }
   border: none;
 }
 
+/* Action buttons for articles */
+.post-info .actions {
+  float: right;
+}
+
 /* Checklists */
 checkbox { cursor: pointer; }
 checkbox.active .fa { color: #009688; }

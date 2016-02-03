@@ -29,6 +29,12 @@ $(document).ready(function() {
       });
 
     $('tags a').addClass('btn btn-sm');
+
+    $('#enable-annotations').click(function() {
+      if ($(this).hasClass('disable')) { return; }
+      $('body').append('<script async defer src="https://hypothes.is/embed.js"></script>');
+      $(this).addClass('disable').attr('disable', 'disable');
+    });
 });
 
 function validateForm(query) {
