@@ -31,9 +31,13 @@ $(document).ready(function() {
     $('tags a').addClass('btn btn-sm');
 
     $('#enable-annotations').click(function() {
-      if ($(this).hasClass('disable')) { return; }
-      $('body').append('<script async defer src="https://hypothes.is/embed.js"></script>');
-      $(this).addClass('disable').attr('disable', 'disable');
+      if ($(this).hasClass('disabled')) { return; }
+      $(this)
+        .addClass('disabled')
+        .find('i')
+          .removeClass('fa-commenting-o').addClass('fa-check');
+      $('body')
+        .append('<script async defer src="https://hypothes.is/embed.js"></script>');
     });
 });
 

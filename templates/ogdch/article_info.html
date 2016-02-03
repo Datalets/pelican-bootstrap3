@@ -1,6 +1,6 @@
 <footer class="post-info">
-  <div class="actions">
 
+  <div class="article-actions">
     {% if article.link_pdf %}
       <a class="btn btn-default" href="{{ article.link_pdf }}" role="button">
         <i class="fa fa-eye"></i>
@@ -14,11 +14,10 @@
     {% endif %}
 
     <a class="btn btn-primary" role="button" id="enable-annotations">
-      <i class="fa fa-comments"></i>
+      <i class="fa fa-commenting-o"></i>
       Annotate</a>
-
   </div>
-  
+
     {% include 'includes/taglist.html' %}
 
     <span class="label label-default">
