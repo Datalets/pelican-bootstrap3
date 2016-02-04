@@ -40,7 +40,7 @@
         {% set next_category = render_categories.next_category(category) -%}
         <div class="col-md-9"></div>
         <div class="col-md-3">
-          <a href="{{ SITEURL }}/category/{{ next_category }}">
+          <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
             <div class="category-icon">
               {{ render_categories.icon_for(next_category) }}
             </div>
