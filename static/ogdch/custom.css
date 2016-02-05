@@ -121,6 +121,12 @@ span.logo-color { color: #009688; }
   border: none;
 }
 
+.print-view .entry-summary {
+  border-bottom: 1px solid #aaa;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
 /* Action buttons for articles */
 .post-info .article-actions {
   float: right;
