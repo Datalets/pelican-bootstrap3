@@ -1,23 +1,18 @@
-#: ../templates/article.html:99
+#: ../templates/article.html:103
 msgid ""
 "Please consider adding your expertise to this topic, which needs more "
 "input."
 msgstr ""
 
-#: ../templates/article.html:102 ../templates/front.html:59
-#: ../templates/ogdch/footer.html:18
+#: ../templates/article.html:106 ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr ""
 
-#: ../templates/article.html:103
+#: ../templates/article.html:107
 msgid "Edit"
 msgstr ""
 
-#: ../templates/article_list.html:60
-msgid "Next"
-msgstr ""
-
-#: ../templates/document.html:11 ../templates/front.html:53
+#: ../templates/document.html:11 ../templates/front.html:68
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr ""
@@ -26,19 +21,21 @@ msgstr ""
 msgid "Start reading"
 msgstr ""
 
-#: ../templates/front.html:56
-msgid "Glossary"
-msgstr ""
-
-#: ../templates/front.html:70
+#: ../templates/front.html:60
 msgid "Search topics..."
 msgstr ""
 
+#: ../templates/front.html:71
+msgid "Glossary"
+msgstr ""
+
 #: ../templates/includes/article_info.html:4
+#: ../templates/ogdch/article_info.html:44
 msgid "Published"
 msgstr ""
 
 #: ../templates/includes/article_info.html:12
+#: ../templates/ogdch/article_info.html:52
 msgid "Modified"
 msgstr ""
 
@@ -47,10 +44,12 @@ msgid "Series"
 msgstr ""
 
 #: ../templates/includes/article_info.html:34
+#: ../templates/ogdch/article_info.html:73
 msgid "Author(s)"
 msgstr ""
 
 #: ../templates/includes/article_info.html:43
+#: ../templates/ogdch/article_info.html:83
 msgid "Category"
 msgstr ""
 
@@ -62,27 +61,46 @@ msgstr ""
 msgid "Send a request"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:36
+#: ../templates/ogdch/article_info.html:18
+#: ../templates/ogdch/article_info.html:24
+msgid "Annotate"
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:28
+msgid ""
+"The ability to annotate and comment on this content is provided using an "
+"external, third party service. The maintainers of this website take no "
+"responsibility for any content that appears therein. You must review and "
+"accept the applicable Terms and Conditions of Use."
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:29
+msgid ""
+"Please mark your annotations and comments as public if you wish for any "
+"other people to see them."
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:32
+msgid "Cancel"
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:33
+msgid "Accept and continue"
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:75
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:19
-msgid "References"
-msgstr ""
-
-#: ../templates/ogdch/footer.html:24
+#: ../templates/ogdch/footer.html:23
 msgid "About"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:25
-msgid "Contact us"
-msgstr ""
-
-#: ../templates/ogdch/footer.html:30
+#: ../templates/ogdch/footer.html:28
 msgid "Legal notice"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:37
+#: ../templates/ogdch/footer.html:35
 msgid ""
 "The OGD Handbook is based on documentation produced by the Open "
 "Government Data Switzerland project and additional established "
