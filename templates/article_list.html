@@ -14,6 +14,7 @@
         {% endif %}
         <div class="col-md-9">
           {% for article in (articles_page.object_list if articles_page else articles) %}
+          {% if not article.hidden %}
           <a href="{{ SITEURL }}/{{ article.url }}">
             <article>
               <div class="wrapper">
@@ -30,6 +31,7 @@
               </div>
             </article>
           </a>
+          {% endif %}
           {% endfor %}
         </div>
       </div>
