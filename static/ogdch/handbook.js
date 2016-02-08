@@ -30,12 +30,12 @@ $(document).ready(function() {
 
     $('tags a').addClass('btn btn-sm');
 
-    $('#enable-annotations').click(function() {
-      if ($(this).hasClass('disabled')) { return; }
-      $(this)
+    $('#annotate-start').click(function() {
+      if ($('#annotate-popup').hasClass('disabled')) { return; }
+      $('#annotate-popup')
         .addClass('disabled')
         .find('i')
-          .removeClass('fa-commenting-o').addClass('fa-check');
+          .removeClass('fa-comment-o').addClass('fa-check');
       $('body')
         .append('<script async defer src="https://hypothes.is/embed.js"></script>');
     });
