@@ -81,7 +81,15 @@
   <ul class="list_articles">
     {% for article in articles %}
       {% if not article.hidden %}
-        <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        <li>
+          {% if not article.draft %}
+            <a href="{{ SITEURL }}/{{ article.url }}">
+              {{ article.title }}
+            </a>
+          {% else %}
+            {{ article.title }}
+          {% endif %}
+        </li>
       {% endif %}
     {% endfor %}
   </ul>

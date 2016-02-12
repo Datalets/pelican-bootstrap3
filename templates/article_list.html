@@ -15,7 +15,7 @@
         <div class="col-md-9">
           {% for article in (articles_page.object_list if articles_page else articles) %}
           {% if not article.hidden %}
-          <a href="{{ SITEURL }}/{{ article.url }}">
+            {% if not article.draft %}<a href="{{ SITEURL }}/{{ article.url }}">{% endif %}
             <article>
               <div class="wrapper">
                 <h2>{{ article.title }}</h2>
@@ -26,11 +26,11 @@
                 {% endif %}
                 <div class="summary">{{ article.summary }}
                     {% include 'includes/comment_count.html' %}
-                    <span class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">more ...</span>
+                    <!-- <span class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">more ...</span> -->
                 </div>
               </div>
             </article>
-          </a>
+            {% if not article.draft %}</a>{% endif %}
           {% endif %}
           {% endfor %}
         </div>
