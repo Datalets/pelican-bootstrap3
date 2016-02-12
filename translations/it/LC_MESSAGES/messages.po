@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-12 14:18+0100\n"
+"POT-Creation-Date: 2016-02-12 14:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -213,3 +213,4 @@ msgstr "e promuovere l'utilizzo"
 
 #~ msgid "Contact us"
 #~ msgstr "Contattaci"
+
