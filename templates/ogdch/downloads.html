@@ -1,0 +1,18 @@
+{% if article.link_pdf %}
+<a class="btn btn-default" href="{{ article.link_pdf }}" role="button" title="PDF">
+  <i class="fa fa-download"></i>
+  {% trans %}Paper{% endtrans %}
+</a>
+{% endif %}
+{% if article.link_doc %}
+<a class="btn btn-default" href="{{ article.link_doc }}" role="button" title="DOC">
+  <i class="fa fa-download"></i>
+  {% trans %}Document{% endtrans %}
+</a>
+{% endif %}
+{% if article.link_ppt %}
+<a class="btn btn-default" href="{{ article.link_ppt }}" role="button" title="PPT">
+  <i class="fa fa-download"></i>
+  {% trans %}Presentation{% endtrans %}
+</a>
+{% endif %}

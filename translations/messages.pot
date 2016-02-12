@@ -1,14 +1,12 @@
-#: ../templates/article.html:103
-msgid ""
-"Please consider adding your expertise to this topic, which needs more "
-"input."
+#: ../templates/article.html:102
+msgid "Please consider adding your expertise to this topic."
 msgstr ""
 
-#: ../templates/article.html:106 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:105 ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr ""
 
-#: ../templates/article.html:107
+#: ../templates/article.html:106
 msgid "Edit"
 msgstr ""
 
@@ -30,12 +28,12 @@ msgid "Glossary"
 msgstr ""
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:44
+#: ../templates/ogdch/article_info.html:14
 msgid "Published"
 msgstr ""
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:52
+#: ../templates/ogdch/article_info.html:22
 msgid "Modified"
 msgstr ""
 
@@ -44,12 +42,12 @@ msgid "Series"
 msgstr ""
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:73
+#: ../templates/ogdch/article_info.html:43
 msgid "Author(s)"
 msgstr ""
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:83
+#: ../templates/ogdch/article_info.html:53
 msgid "Category"
 msgstr ""
 
@@ -61,12 +59,11 @@ msgstr ""
 msgid "Send a request"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:18
-#: ../templates/ogdch/article_info.html:24
+#: ../templates/ogdch/annotate.html:4 ../templates/ogdch/annotate.html:10
 msgid "Annotate"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:28
+#: ../templates/ogdch/annotate.html:14
 msgid ""
 "The ability to annotate and comment on this content is provided using an "
 "external, third party service. The maintainers of this website take no "
@@ -74,22 +71,34 @@ msgid ""
 "accept the applicable Terms and Conditions of Use."
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:29
+#: ../templates/ogdch/annotate.html:15
 msgid ""
 "Please mark your annotations and comments as public if you wish for any "
 "other people to see them."
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:32
+#: ../templates/ogdch/annotate.html:18
 msgid "Cancel"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:33
+#: ../templates/ogdch/annotate.html:19
 msgid "Accept and continue"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:75
+#: ../templates/ogdch/article_info.html:45
 msgid "Open Government Data Switzerland"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:4
+msgid "Paper"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:10
+msgid "Document"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:16
+msgid "Presentation"
 msgstr ""
 
 #: ../templates/ogdch/footer.html:23
