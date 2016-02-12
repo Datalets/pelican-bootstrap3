@@ -13,6 +13,7 @@
         DOC</a>
     {% endif %}
 
+    {% if article.annotate %}
     <a class="btn btn-primary" role="button" data-toggle="modal" data-target="#annotate-dialog" id="annotate-popup">
       <i class="fa fa-comment-o"></i>
       {% trans %}Annotate{% endtrans %}</a>
@@ -35,6 +36,7 @@
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
+    {% endif %}
 
   </div>
 
