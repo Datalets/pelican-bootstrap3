@@ -96,17 +96,16 @@
             {% if article.toc %}
               {{article.toc}}
             {% endif %}
-            {% if article.draft %}
-              <!-- Page in progress warning -->
-              <div class="please-contribute alert alert-default" role="alert">
-                <em>
-                  {% trans %}Please consider adding your expertise to this topic, which needs more input.{% endtrans %}
-                </em>
-                &nbsp;
-                <a class="btn btn-primary btn-sm" href="/en/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
-                <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
-              </div>
-            {% endif %}
+
+            <div class="please-contribute alert alert-default" role="alert">
+              <em>
+                {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
+              </em>
+              &nbsp;
+              <a class="btn btn-primary btn-sm" href="/en/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
+              <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
+            </div>
+
             <div class="entry-content">
                 {{ article.content }}
             </div>
