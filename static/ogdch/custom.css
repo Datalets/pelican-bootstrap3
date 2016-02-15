@@ -219,6 +219,9 @@ tags .btn-sm:hover, .tags .btn-sm:hover { color: #009688; }
   margin-bottom: 1.0em;
 }
 
+/* Fix mobile wide inline images */
+img { max-width: 100%; }
+
 /* Fix mobile handbook logo */
 @media (max-width: 992px) {
   #main-navigation .navbar-brand {
