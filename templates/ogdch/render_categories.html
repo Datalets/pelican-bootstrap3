@@ -16,13 +16,13 @@
 
 {% macro next_category(category) -%}
 	{% if category|trim|lower == "identify" %}
-		{% trans %}Establish{% endtrans %}
+		Establish
 	{% elif category|trim|lower == "establish" %}
-		{% trans %}Publish{% endtrans %}
+		Publish
 	{% elif category|trim|lower == "publish" %}
-		{% trans %}Support{% endtrans %}
+		Support
 	{% elif category|trim|lower == "support" %}
-		{% trans %}Identify{% endtrans %}
+		Identify
 	{% else %}
 		{{ category }}
 	{% endif %}

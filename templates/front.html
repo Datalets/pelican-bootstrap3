@@ -45,6 +45,8 @@
 		        {% endif %}
             {% if page.summary %}
               <div class="lead">{{ page.summary }}</div>
+            {% endif %}
+            {% if START_READING_ENABLED %}
               <a class="btn btn-default-inverted" href="/category/identify" role="button">
                 {% trans %}Start reading{% endtrans %}</a>
             {% endif %}
@@ -63,12 +65,12 @@
               </form>
             {% endif %}
             &nbsp;
-            <a class="btn btn-primary" href="{{ SITEURL }}/category/library" role="button">
+            <a class="btn btn-primary btn-lg" href="{{ SITEURL }}/category/library" role="button">
               <i class="fa fa-book"></i>
               {% trans %}Library{% endtrans %}</a>
-            <a class="btn btn-primary" href="{{ SITEURL }}/library/glossary" role="button">
+            <!-- <a class="btn btn-primary" href="{{ SITEURL }}/library/glossary" role="button">
               <i class="fa fa-puzzle-piece"></i>
-              {% trans %}Glossary{% endtrans %}</a>
+              {% trans %}Glossary{% endtrans %}</a> -->
           </div>
   			</div>
   		</div>
