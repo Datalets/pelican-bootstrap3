@@ -98,10 +98,12 @@
             {% endif %}
 
             <div class="please-contribute alert alert-default" role="alert">
+              {% if article.draft %}
               <em>
                 {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
               </em>
               &nbsp;
+              {% endif %}
               <a class="btn btn-primary btn-sm" href="/en/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
               <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
             </div>
