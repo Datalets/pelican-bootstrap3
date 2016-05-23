@@ -149,18 +149,12 @@ msgid ""
 "publishing best practices in general. The Swiss Federal Archives operates"
 " the OGD Handbook."
 msgstr ""
-"Das OGD-Handbuch basiert auf Dokumentation, die vom Projekt Open "
-"Government Data Schweiz angefertigt wurde, und auf zusätzlichen bewährten"
-" Referenzen. Als Plattform zum Wissensaustausch für opendata.swiss "
-"unterstützt es Programme zur Datenveröffentlichung in Verwaltungen, und "
-"Best Practices zur Veröffentlichung von Open Data allgemein. Das "
-"Schweizerische Bundesarchiv unterstützt das OGD-Handbuch."
+"handbook.opendata.swiss bietet Unterstützung für Personen und Organisationen, die Open Government Data veröffentlichen wollen. Das Handbuch fördert den Wissensaustausch: Beiträge von Personen mit Erfahrungen im Bereich open data sind explizit erwünscht. Das Schweizerische Bundesarchiv betreibt handbook.opendata.swiss."
 
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
 msgstr ""
-"Dies ist eine vor Kurzem veröffentlichte Website: klicken Sie hier, um "
-"Probleme zu melden."
+"BETA - handbook.opendata.swiss steht in einer Beta-Version zur Verfügung. Klicken Sie hier, um Probleme zu melden."
 
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
@@ -210,4 +204,3 @@ msgstr "Die Verwendung unterstützen und fördern"
 
 #~ msgid "Contact us"
 #~ msgstr "Kontakt"
-
